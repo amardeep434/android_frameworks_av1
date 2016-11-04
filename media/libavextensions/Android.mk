@@ -12,7 +12,6 @@ LOCAL_C_INCLUDES:= \
         $(TOP)/frameworks/native/include/media/hardware \
         $(TOP)/frameworks/native/include/media/openmax \
         $(TOP)/external/flac/include \
-
         $(TOP)/frameworks/av/media/libstagefright \
         $(TOP)/frameworks/av/media/libstagefright/mpeg2ts \
 
