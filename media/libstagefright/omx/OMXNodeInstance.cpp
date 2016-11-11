@@ -1640,13 +1640,6 @@ void OMXNodeInstance::onEvent(
             && arg2 == OMX_StateExecuting) {
         bufferSource->omxExecuting();
     }
-
-    // allow configuration if we return to the loaded state
-    if (event == OMX_EventCmdComplete
-            && arg1 == OMX_CommandStateSet
-            && arg2 == OMX_StateLoaded) {
-        mSailed = false;
-    }
 }
 
 // static
